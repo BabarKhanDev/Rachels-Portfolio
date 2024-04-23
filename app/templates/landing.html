@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Server Files-->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/landing.css') }}" />
+        <script type="module" src="{{ url_for('static',filename='js/landing.js') }}"></script>
+        <link rel="shortcut icon" href="{{ url_for('static', filename='icon.ico') }}">
+
+
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <title>Rachel Healy Photography</title>
+    </head>
+
+    <body id="body">
+
+        <section id="header">
+            <p id="title">Rachel Healy Photography</p>
+            <p id="contact">Contact Me</p>
+        </section>
+
+        <section id="gallery"></section>
+
+    </body>
+</html>
